@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>human_following</name>
+  <version>0.0.1</version>
+  <description>ROS2 Human following robot using TurtleBot3 and LiDAR</description>
+  <maintainer email="jk6871@gmail.com">ns2022427138</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>cv_bridge</depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
